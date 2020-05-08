@@ -1,14 +1,14 @@
 nohup: ignoring input
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[04:03:21] [Server thread/INFO]: Loading properties
-[04:03:21] [Server thread/INFO]: Default game type: SURVIVAL
-[04:03:21] [Server thread/INFO]: Generating keypair
-[04:03:21] [Server console handler/ERROR]: Exception handling console input
+[13:38:32] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:38:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:38:32] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:38:32] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:38:32] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:38:32] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[13:38:32] [Server thread/INFO]: Loading properties
+[13:38:32] [Server thread/INFO]: Default game type: SURVIVAL
+[13:38:32] [Server thread/INFO]: Generating keypair
+[13:38:32] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: Bad file descriptor
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
@@ -22,230 +22,494 @@ java.io.IOException: Bad file descriptor
 	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
 	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
 	at wd$2.run(SourceFile:110) [server.jar:?]
-[04:03:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:03:22] [Server thread/INFO]: Using epoll channel type
-[04:03:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:03:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:03:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:03:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:03:23] [Server thread/INFO]: Preparing level "world"
-[04:03:23] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
-[04:03:23] [Server thread/INFO]: Reloading ResourceManager: Default
-[04:03:58] [Server thread/INFO]: Loaded 6 recipes
-[04:03:58] [Server thread/INFO]: Loaded 825 advancements
-[04:04:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:06] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:06] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:07] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:07] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[04:04:08] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[04:04:08] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[04:04:09] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[04:04:09] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[04:04:10] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[04:04:10] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[04:04:11] [Server-Worker-1/INFO]: Preparing spawn area: 5%
-[04:04:11] [Server-Worker-1/INFO]: Preparing spawn area: 6%
-[04:04:12] [Server-Worker-1/INFO]: Preparing spawn area: 7%
-[04:04:12] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:15] [Server-Worker-1/INFO]: Preparing spawn area: 10%
-[04:04:15] [Server-Worker-1/INFO]: Preparing spawn area: 11%
-[04:04:16] [Server-Worker-1/INFO]: Preparing spawn area: 12%
-[04:04:16] [Server-Worker-1/INFO]: Preparing spawn area: 13%
-[04:04:17] [Server-Worker-1/INFO]: Preparing spawn area: 15%
-[04:04:17] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[04:04:18] [Server-Worker-1/INFO]: Preparing spawn area: 17%
-[04:04:18] [Server-Worker-1/INFO]: Preparing spawn area: 17%
-[04:04:19] [Server-Worker-1/INFO]: Preparing spawn area: 18%
-[04:04:19] [Server-Worker-1/INFO]: Preparing spawn area: 20%
-[04:04:20] [Server-Worker-1/INFO]: Preparing spawn area: 21%
-[04:04:20] [Server-Worker-1/INFO]: Preparing spawn area: 22%
-[04:04:21] [Server-Worker-1/INFO]: Preparing spawn area: 24%
-[04:04:21] [Server-Worker-1/INFO]: Preparing spawn area: 24%
-[04:04:22] [Server-Worker-1/INFO]: Preparing spawn area: 25%
-[04:04:22] [Server-Worker-1/INFO]: Preparing spawn area: 26%
-[04:04:23] [Server-Worker-1/INFO]: Preparing spawn area: 27%
-[04:04:23] [Server-Worker-1/INFO]: Preparing spawn area: 29%
-[04:04:24] [Server-Worker-1/INFO]: Preparing spawn area: 30%
-[04:04:24] [Server-Worker-1/INFO]: Preparing spawn area: 31%
-[04:04:25] [Server-Worker-1/INFO]: Preparing spawn area: 31%
-[04:04:25] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[04:04:26] [Server-Worker-1/INFO]: Preparing spawn area: 34%
-[04:04:26] [Server-Worker-1/INFO]: Preparing spawn area: 35%
-[04:04:27] [Server-Worker-1/INFO]: Preparing spawn area: 35%
-[04:04:27] [Server-Worker-1/INFO]: Preparing spawn area: 37%
-[04:04:28] [Server-Worker-1/INFO]: Preparing spawn area: 39%
-[04:04:28] [Server-Worker-1/INFO]: Preparing spawn area: 40%
-[04:04:29] [Server-Worker-1/INFO]: Preparing spawn area: 41%
-[04:04:29] [Server-Worker-1/INFO]: Preparing spawn area: 43%
-[04:04:30] [Server-Worker-1/INFO]: Preparing spawn area: 44%
-[04:04:30] [Server-Worker-1/INFO]: Preparing spawn area: 46%
-[04:04:31] [Server-Worker-1/INFO]: Preparing spawn area: 48%
-[04:04:31] [Server-Worker-1/INFO]: Preparing spawn area: 50%
-[04:04:32] [Server-Worker-1/INFO]: Preparing spawn area: 50%
-[04:04:32] [Server-Worker-1/INFO]: Preparing spawn area: 51%
-[04:04:33] [Server-Worker-1/INFO]: Preparing spawn area: 54%
-[04:04:33] [Server-Worker-1/INFO]: Preparing spawn area: 56%
-[04:04:34] [Server-Worker-1/INFO]: Preparing spawn area: 57%
-[04:04:34] [Server-Worker-1/INFO]: Preparing spawn area: 59%
-[04:04:35] [Server-Worker-1/INFO]: Preparing spawn area: 61%
-[04:04:35] [Server-Worker-1/INFO]: Preparing spawn area: 62%
-[04:04:36] [Server-Worker-1/INFO]: Preparing spawn area: 64%
-[04:04:36] [Server-Worker-1/INFO]: Preparing spawn area: 65%
-[04:04:37] [Server-Worker-1/INFO]: Preparing spawn area: 67%
-[04:04:37] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[04:04:38] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[04:04:38] [Server-Worker-1/INFO]: Preparing spawn area: 70%
-[04:04:39] [Server-Worker-1/INFO]: Preparing spawn area: 71%
-[04:04:39] [Server-Worker-1/INFO]: Preparing spawn area: 74%
-[04:04:40] [Server-Worker-1/INFO]: Preparing spawn area: 76%
-[04:04:40] [Server-Worker-1/INFO]: Preparing spawn area: 79%
-[04:04:41] [Server-Worker-1/INFO]: Preparing spawn area: 81%
-[04:04:41] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[04:04:42] [Server-Worker-1/INFO]: Preparing spawn area: 85%
-[04:04:42] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[04:04:43] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[04:04:43] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[04:04:44] [Server-Worker-1/INFO]: Preparing spawn area: 93%
-[04:04:44] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[04:04:45] [Server-Worker-1/INFO]: Preparing spawn area: 96%
-[04:04:45] [Server-Worker-1/INFO]: Preparing spawn area: 99%
-[04:04:46] [Server thread/INFO]: Time elapsed: 41436 ms
-[04:04:46] [Server thread/INFO]: Done (83.197s)! For help, type "help"
-[04:07:19] [Server thread/INFO]: Shikimime[/36.75.66.159:33456] logged in with entity id 177 at (-186.5, 64.0, 95.5)
-[04:07:20] [Server thread/INFO]: Shikimime joined the game
-[04:08:36] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[04:08:36] [Server thread/INFO]: Shikimime left the game
-[04:09:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2163ms or 43 ticks behind
-[04:11:39] [Server thread/INFO]: kim[/36.75.67.226:48596] logged in with entity id 467 at (-196.5, 63.0, 94.5)
-[04:11:39] [Server thread/INFO]: kim joined the game
-[04:14:09] [Server thread/INFO]: kim has made the advancement [Stone Age]
-[04:17:43] [Server thread/INFO]: D A T U[/125.160.104.195:2215] logged in with entity id 1148 at (-181.5, 64.0, 97.5)
-[04:17:43] [Server thread/INFO]: D A T U joined the game
-[04:18:29] [Server thread/INFO]: <kim> awas put
-[04:18:32] [Server thread/INFO]: <kim> zombie
-[04:20:34] [Server thread/INFO]: kim has made the advancement [Getting an Upgrade]
-[04:20:48] [Server thread/INFO]: D A T U was slain by Zombie
-[04:22:59] [Server thread/INFO]: <kim> put
-[04:23:07] [Server thread/INFO]: <kim> tekan T buat chat
-[04:30:42] [Server thread/INFO]: Shikimime[/36.75.66.159:54289] logged in with entity id 3117 at (-173.26705952862662, 72.0, 69.13339512617289)
-[04:30:42] [Server thread/INFO]: Shikimime joined the game
-[04:32:56] [Server thread/INFO]: Shikimime has made the advancement [Stone Age]
-[04:33:48] [Server thread/INFO]: Shikimime has made the advancement [Getting an Upgrade]
-[04:34:50] [Server thread/WARN]: kim moved too quickly! 8.774213456506175,-1.9403488117095407,-4.653868038913473
-[04:34:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
-[04:35:59] [Server thread/INFO]: D A T U lost connection: Timed out
-[04:35:59] [Server thread/INFO]: D A T U left the game
-[04:35:59] [Server thread/WARN]: handleDisconnection() called twice
-[04:36:28] [Server thread/INFO]: D A T U[/125.160.104.195:2251] logged in with entity id 4362 at (-363.8392017971686, 64.0, 208.44679191369062)
-[04:36:28] [Server thread/INFO]: D A T U joined the game
-[04:37:05] [Server thread/WARN]: D A T U moved too quickly! 17.26369089070289,1.0,-13.340691838486407
-[04:37:06] [Server thread/INFO]: kim has made the advancement [Sweet Dreams]
-[04:37:20] [Server thread/INFO]: Shikimime has made the advancement [Sweet Dreams]
-[04:37:41] [Server thread/WARN]: D A T U moved wrongly!
-[04:37:55] [Server thread/INFO]: <Shikimime> a
-[04:38:08] [Server thread/INFO]: <kim> locate D A T U
-[04:38:24] [Server thread/INFO]: D A T U has made the advancement [Sweet Dreams]
-[04:39:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3379ms or 67 ticks behind
-[04:41:07] [Server thread/INFO]: Shikimime has made the advancement [Monster Hunter]
-[04:44:58] [Server thread/INFO]: D A T U has made the advancement [Stone Age]
-[04:45:34] [Server thread/INFO]: Shikimime has made the advancement [Fishy Business]
-[04:47:15] [Server thread/INFO]: Shikimime has made the advancement [Acquire Hardware]
-[04:48:07] [Server thread/INFO]: Shikimime has made the advancement [Isn't It Iron Pick]
-[04:52:07] [Server thread/INFO]: kim has made the advancement [Acquire Hardware]
-[04:54:02] [Server thread/INFO]: Shikimime has made the advancement [Not Today, Thank You]
-[04:56:31] [Server thread/WARN]: Fetching packet for removed entity awb['Wheat Seeds'/8168, l='world', x=-383.53, y=66.15, z=290.34]
-[04:56:32] [Server thread/INFO]: D A T U has made the advancement [Getting an Upgrade]
-[04:58:37] [Server thread/INFO]: D A T U lost connection: Timed out
-[04:58:37] [Server thread/INFO]: D A T U left the game
-[04:58:41] [Server thread/INFO]: D A T U[/125.160.97.131:2272] logged in with entity id 8563 at (-419.1017400198556, 59.0, 290.3197399446112)
-[04:58:41] [Server thread/INFO]: D A T U joined the game
-[05:08:13] [Server thread/INFO]: Shikimime has made the advancement [The Parrots and the Bats]
-[05:09:45] [Server thread/INFO]: Shikimime lost connection: Timed out
-[05:09:45] [Server thread/INFO]: Shikimime left the game
-[05:09:45] [Server thread/WARN]: handleDisconnection() called twice
-[05:09:59] [Server thread/INFO]: Shikimime[/36.75.66.159:46803] logged in with entity id 10315 at (-399.5290864662684, 64.0, 248.87326705425414)
-[05:09:59] [Server thread/INFO]: Shikimime joined the game
-[05:10:49] [Server thread/INFO]: Shikimime lost connection: Timed out
-[05:10:49] [Server thread/INFO]: Shikimime left the game
-[05:11:32] [Server thread/INFO]: Shikimime[/36.75.66.159:31850] logged in with entity id 10681 at (-399.5290864662684, 64.0, 248.87326705425414)
-[05:11:32] [Server thread/INFO]: Shikimime joined the game
-[05:12:09] [Server thread/INFO]: kim has made the advancement [A Seedy Place]
-[05:19:11] [Server thread/INFO]: Shikimime has made the advancement [Suit Up]
-[05:30:55] [Server thread/INFO]: Shikimime was slain by Zombie
-[05:31:29] [Server thread/INFO]: kim has made the advancement [Monster Hunter]
-[05:31:41] [Server thread/INFO]: kim was slain by Zombie
-[05:31:45] [Server thread/INFO]: Shikimime was slain by Zombie
-[05:32:14] [Server thread/INFO]: kim was slain by Zombie
-[05:32:42] [Server thread/INFO]: D A T U fell from a high place
-[05:32:51] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[05:32:51] [Server thread/INFO]: Shikimime left the game
-[05:33:00] [Server thread/INFO]: D A T U lost connection: Disconnected
-[05:33:00] [Server thread/INFO]: D A T U left the game
-[05:33:09] [Server thread/INFO]: D A T U[/125.160.97.131:2288] logged in with entity id 15291 at (-368.5998526510112, 66.6037636546968, 296.03403838508103)
-[05:33:09] [Server thread/INFO]: D A T U joined the game
-[05:33:11] [Server thread/INFO]: Shikimime[/36.75.66.159:17599] logged in with entity id 15301 at (-381.95092424506714, 67.5625, 298.15312860010056)
-[05:33:11] [Server thread/INFO]: Shikimime joined the game
-[05:34:23] [Server thread/INFO]: Villager axw['Villager'/3934, l='world', x=-412.81, y=51.00, z=247.27] died, message: 'Villager was slain by Zombie'
-[05:38:52] [Server thread/INFO]: Shikimime has made the advancement [Hot Stuff]
-[05:45:03] [Server thread/INFO]: <kim> wait
-[05:45:20] [Server thread/INFO]: Shikimime has made the advancement [A Seedy Place]
-[05:49:37] [Server thread/INFO]: Villager axw['Villager'/3774, l='world', x=-421.92, y=54.00, z=255.61] died, message: 'Villager was slain by Zombie'
-[05:50:23] [Server thread/INFO]: kim has made the advancement [Isn't It Iron Pick]
-[06:13:38] [Server thread/INFO]: Shikimime has made the advancement [Diamonds!]
-[06:21:46] [Server thread/INFO]: <kim> t
-[06:27:05] [Server thread/INFO]: kim has made the advancement [Diamonds!]
-[06:38:58] [Server thread/INFO]: Villager axw['Villager'/2438, l='world', x=-359.45, y=63.00, z=303.41] died, message: 'Villager was slain by D A T U'
-[06:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
-[06:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
-[06:40:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7331ms or 146 ticks behind
-[06:40:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10290ms or 205 ticks behind
-[06:41:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6554ms or 131 ticks behind
-[06:41:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8424ms or 168 ticks behind
-[06:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2322ms or 46 ticks behind
-[06:42:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2458ms or 49 ticks behind
-[06:42:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2220ms or 44 ticks behind
-[06:42:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6840ms or 136 ticks behind
-[06:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6477ms or 129 ticks behind
-[06:43:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4244ms or 84 ticks behind
-[06:43:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5740ms or 114 ticks behind
-[06:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8262ms or 165 ticks behind
-[06:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10456ms or 209 ticks behind
-[06:44:41] [Server thread/WARN]: kim moved too quickly! 8.635899434021155,0.0,5.045841416529925
-[06:45:02] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[06:45:02] [Server thread/INFO]: Shikimime left the game
-[06:45:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23275ms or 465 ticks behind
-[06:45:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4227ms or 84 ticks behind
-[06:45:53] [Server thread/INFO]: Shikimime[/36.75.66.159:39822] logged in with entity id 30028 at (-209.39438471013528, 11.0, 229.69999998807907)
-[06:45:53] [Server thread/INFO]: Shikimime joined the game
-[06:46:17] [Server thread/WARN]: Shikimime moved wrongly!
-[06:46:43] [Server Watchdog/FATAL]: A single server tick took 60.03 seconds (should be max 0.05)
-[06:46:44] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[06:47:42] [Server thread/INFO]: D A T U lost connection: Disconnected
-[06:47:43] [Server thread/INFO]: D A T U left the game
-[06:47:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 120594ms or 2411 ticks behind
-[06:47:51] [Server thread/INFO]: kim lost connection: Disconnected
-[06:47:52] [Server thread/INFO]: kim left the game
-[06:48:09] [Server thread/INFO]: D A T U[/125.160.97.131:2413] logged in with entity id 30160 at (-351.80611167231615, 64.0, 307.6283074462246)
-[06:48:09] [Server thread/INFO]: D A T U joined the game
-[06:48:19] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[06:48:21] [Server thread/INFO]: Shikimime left the game
-[06:49:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@37032d2f[id=<null>,name=kim,properties={},legacy=false] (/36.75.67.226:12249) lost connection: Disconnected
-[06:49:11] [Server thread/INFO]: D A T U lost connection: Disconnected
-[06:49:11] [Server thread/INFO]: D A T U left the game
-[06:49:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 113467ms or 2269 ticks behind
-[06:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
-[06:50:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
-[06:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14201ms or 284 ticks behind
-[06:51:17] [Server Watchdog/ERROR]: This crash report has been saved to: /home/mineser/minecraft/./crash-reports/crash-2020-05-07_06.51.08-server.txt
-[06:51:24] [Server thread/INFO]: Stopping server
-[06:51:28] [Server thread/INFO]: Saving players
-[06:51:29] [Server thread/INFO]: Saving worlds
-[06:51:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[13:38:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:38:33] [Server thread/INFO]: Using epoll channel type
+[13:38:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:38:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:38:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:38:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:38:33] [Server thread/INFO]: Preparing level "world"
+[13:38:33] [Server thread/INFO]: Reloading ResourceManager: Default
+[13:39:06] [Server thread/INFO]: Loaded 6 recipes
+[13:39:07] [Server thread/INFO]: Loaded 825 advancements
+[13:39:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:39:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:39:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:39:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:39:09] [Server thread/INFO]: Preparing spawn area: 0%
+[13:39:09] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[13:39:10] [Server thread/INFO]: Preparing spawn area: 69%
+[13:39:10] [Server thread/INFO]: Time elapsed: 2869 ms
+[13:39:10] [Server thread/INFO]: Done (37.069s)! For help, type "help"
+[13:40:12] [Server thread/INFO]: D A T U[/125.160.97.131:2461] logged in with entity id 85 at (570.9733304897364, 63.0, 1592.4007956569956)
+[13:40:12] [Server thread/INFO]: D A T U joined the game
+[13:40:15] [Server thread/INFO]: Shikimime[/125.160.108.107:3183] logged in with entity id 204 at (-381.700000025332, 67.0000002, 297.299999974668)
+[13:40:15] [Server thread/INFO]: Shikimime joined the game
+[13:40:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[13:40:54] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[13:40:54] [Server thread/INFO]: Shikimime left the game
+[13:41:08] [Server thread/INFO]: Shikimime[/125.160.108.107:50240] logged in with entity id 554 at (-324.23098647062903, 63.0, 261.31002211798267)
+[13:41:08] [Server thread/INFO]: Shikimime joined the game
+[13:41:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[13:42:59] [Server thread/INFO]: D A T U has made the advancement [We Need to Go Deeper]
+[13:44:17] [Server thread/WARN]: Shikimime moved too quickly! -7.521568710698244,-1.1212968405391948,6.6632012899447375
+[13:44:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2898ms or 57 ticks behind
+[13:49:11] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[13:49:11] [Server thread/INFO]: Shikimime left the game
+[13:49:28] [Server thread/INFO]: Shikimime[/125.160.108.107:50270] logged in with entity id 2188 at (-272.5, 64.0, 221.47366939041913)
+[13:49:28] [Server thread/INFO]: Shikimime joined the game
+[13:50:59] [Server thread/INFO]: kim[/36.75.67.226:56861] logged in with entity id 2511 at (-365.700000025332, 70.0000002, 286.299999974668)
+[13:50:59] [Server thread/INFO]: kim joined the game
+[13:51:27] [Server thread/INFO]: kim lost connection: Disconnected
+[13:51:27] [Server thread/INFO]: kim left the game
+[13:51:34] [Server thread/INFO]: kim[/36.75.67.226:56173] logged in with entity id 2579 at (-365.700000025332, 70.0000002, 286.299999974668)
+[13:51:34] [Server thread/INFO]: kim joined the game
+[13:51:43] [Server thread/INFO]: <kim> oi
+[13:52:29] [Server thread/INFO]: <Shikimime> mau mineshaft?
+[13:52:39] [Server thread/INFO]: <kim> hmm
+[13:53:05] [Server thread/INFO]: <kim> apa yg kau lakukan pada berryku
+[13:53:19] [Server thread/INFO]: <Shikimime> mau ku makan
+[13:54:00] [Server thread/INFO]: <Shikimime> gas mineshaft
+[13:54:15] [Server thread/INFO]: <kim> gk mau
+[13:54:25] [Server thread/INFO]: <Shikimime> eh villager udah ku pagar
+[13:54:31] [Server thread/INFO]: <Shikimime> liatin cukup gak cahayanya
+[13:54:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
+[13:54:58] [Server thread/INFO]: <kim> ok
+[13:54:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8816ms or 176 ticks behind
+[13:55:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9167ms or 183 ticks behind
+[13:55:41] [Server thread/INFO]: <D A T U> mode diam kah rik
+[13:55:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7181ms or 143 ticks behind
+[13:55:49] [Server thread/INFO]: <kim> yes
+[13:55:58] [Server thread/INFO]: <D A T U> aku jga kek nya mau mode diam
+[13:56:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6383ms or 127 ticks behind
+[13:56:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4761ms or 95 ticks behind
+[13:56:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6985ms or 139 ticks behind
+[13:57:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7890ms or 157 ticks behind
+[13:58:29] [Server thread/INFO]: <kim> cara bikin tempat kompos gimana
+[13:58:35] [Server thread/INFO]: <Shikimime> pake kayu
+[13:58:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[13:58:48] [Server thread/INFO]: <kim> kita butuh petani buat nambah village
+[13:58:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2561ms or 51 ticks behind
+[13:58:59] [Server thread/INFO]: <Shikimime> ama kasur
+[13:59:11] [Server thread/INFO]: <kim> tangkap domba cuk
+[13:59:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2616ms or 52 ticks behind
+[13:59:31] [Server thread/INFO]: <Shikimime> mana tali?
+[13:59:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4553ms or 91 ticks behind
+[13:59:44] [Server thread/INFO]: <kim> slime sama benang ada dichest atas
+[13:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3078ms or 61 ticks behind
+[14:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6617ms or 132 ticks behind
+[14:00:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7932ms or 158 ticks behind
+[14:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17119ms or 342 ticks behind
+[14:01:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5234ms or 104 ticks behind
+[14:01:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4484ms or 89 ticks behind
+[14:02:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2982ms or 59 ticks behind
+[14:02:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4541ms or 90 ticks behind
+[14:02:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4246ms or 84 ticks behind
+[14:03:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5633ms or 112 ticks behind
+[14:03:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5148ms or 102 ticks behind
+[14:03:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6888ms or 137 ticks behind
+[14:04:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5117ms or 102 ticks behind
+[14:04:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6154ms or 123 ticks behind
+[14:04:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5504ms or 110 ticks behind
+[14:05:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8904ms or 178 ticks behind
+[14:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8612ms or 172 ticks behind
+[14:05:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9456ms or 189 ticks behind
+[14:06:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10114ms or 202 ticks behind
+[14:06:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6004ms or 120 ticks behind
+[14:07:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6636ms or 132 ticks behind
+[14:07:26] [Server thread/INFO]: <Shikimime> guring
+[14:07:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
+[14:07:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5101ms or 102 ticks behind
+[14:08:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[14:08:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[14:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[14:09:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2605ms or 52 ticks behind
+[14:10:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8262ms or 165 ticks behind
+[14:10:15] [Server thread/INFO]: <kim> ember cuk
+[14:10:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5726ms or 114 ticks behind
+[14:10:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5574ms or 111 ticks behind
+[14:11:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12891ms or 257 ticks behind
+[14:12:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[14:12:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8199ms or 163 ticks behind
+[14:13:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6990ms or 139 ticks behind
+[14:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6781ms or 135 ticks behind
+[14:14:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8373ms or 167 ticks behind
+[14:14:09] [Server thread/WARN]: kim moved wrongly!
+[14:14:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12444ms or 248 ticks behind
+[14:14:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7852ms or 157 ticks behind
+[14:15:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6642ms or 132 ticks behind
+[14:15:20] [Server thread/INFO]: <Shikimime> bagi tanah
+[14:15:32] [Server thread/INFO]: <D A T U> d rmh ku
+[14:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13379ms or 267 ticks behind
+[14:15:47] [Server thread/INFO]: <D A T U> ambil ja bynk tu
+[14:15:55] [Server thread/INFO]: <kim> bagi ikan
+[14:16:07] [Server thread/INFO]: <kim> bangsat cuk
+[14:16:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13579ms or 271 ticks behind
+[14:16:14] [Server thread/INFO]: <Shikimime> kenapa?
+[14:16:19] [Server thread/INFO]: <kim> udh cape2 dibajak malah diinjak
+[14:16:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8386ms or 167 ticks behind
+[14:17:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11269ms or 225 ticks behind
+[14:17:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12562ms or 251 ticks behind
+[14:17:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9295ms or 185 ticks behind
+[14:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9271ms or 185 ticks behind
+[14:18:28] [Server thread/INFO]: <Shikimime> ada kucinggg
+[14:18:34] [Server thread/INFO]: <kim> ada wheat gk?
+[14:18:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7578ms or 151 ticks behind
+[14:18:58] [Server thread/INFO]: <Shikimime> dikandang domba banyak
+[14:19:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5543ms or 110 ticks behind
+[14:19:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4230ms or 84 ticks behind
+[14:19:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2533ms or 50 ticks behind
+[14:20:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[14:20:21] [Server thread/INFO]: <Shikimime> rik
+[14:20:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8710ms or 174 ticks behind
+[14:20:24] [Server thread/INFO]: <Shikimime> cari ikan
+[14:20:26] [Server thread/INFO]: <kim> oi
+[14:20:34] [Server thread/INFO]: <Shikimime> lihat
+[14:20:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4876ms or 97 ticks behind
+[14:20:59] [Server thread/INFO]: <Shikimime> kucingnya ku ikat
+[14:21:04] [Server thread/INFO]: <Shikimime> didekat tempat villager
+[14:21:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6602ms or 132 ticks behind
+[14:21:13] [Server thread/INFO]: <kim> cuk petani ngewe
+[14:21:17] [Server thread/INFO]: <Shikimime> asu
+[14:21:20] [Server thread/INFO]: <Shikimime> videokan
+[14:21:21] [Server thread/INFO]: <kim> yah gk jadi
+[14:21:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4252ms or 85 ticks behind
+[14:21:28] [Server thread/INFO]: <Shikimime> biar viral
+[14:21:42] [Server thread/INFO]: <kim> mungkin takut keciduk
+[14:21:49] [Server thread/INFO]: <Shikimime> pencet T mun handak chat put
+[14:21:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11485ms or 229 ticks behind
+[14:22:09] [Server thread/INFO]: <D A T U> oke
+[14:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3796ms or 75 ticks behind
+[14:22:20] [Server thread/INFO]: <D A T U> Shikimime
+[14:22:22] [Server thread/INFO]: Shikimime has made the advancement [Best Friends Forever]
+[14:22:31] [Server thread/INFO]: <kim> ganti aja ke enter
+[14:22:38] [Server thread/INFO]: <Shikimime> cukkk
+[14:22:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13238ms or 264 ticks behind
+[14:22:41] [Server thread/INFO]: <kim> oi
+[14:22:41] [Server thread/INFO]: <Shikimime> aku punya kucing
+[14:22:52] [Server thread/INFO]: <kim> tiudr
+[14:22:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4227ms or 84 ticks behind
+[14:23:04] [Server thread/INFO]: <Shikimime> sini creeper
+[14:23:08] [Server thread/INFO]: <Shikimime> aku gk takut sekarang
+[14:23:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[14:23:36] [Server thread/INFO]: <kim> rip creeper
+[14:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3100ms or 62 ticks behind
+[14:23:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5401ms or 108 ticks behind
+[14:24:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8477ms or 169 ticks behind
+[14:24:34] [Server thread/INFO]: <Shikimime> mana lagi kucing nya
+[14:24:37] [Server thread/INFO]: <Shikimime> ku tangkepin
+[14:25:19] [Server thread/INFO]: <Shikimime> awokwokwk gk bejo
+[14:25:30] [Server thread/INFO]: <kim> kucing dajjal
+[14:25:35] [Server thread/INFO]: <Shikimime> aku cariin 1 lagi buat putra
+[14:25:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[14:25:44] [Server thread/INFO]: <kim> ada tadi yg hitam
+[14:25:54] [Server thread/INFO]: <kim> dkt kandang sapi didalam
+[14:25:55] [Server thread/INFO]: <Shikimime> 4 dong berarti
+[14:25:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8174ms or 163 ticks behind
+[14:26:04] [Server thread/INFO]: <Shikimime> soalnya ku liat 2 yg belang tdi
+[14:26:09] [Server thread/INFO]: <Shikimime> terus 1 punyamu
+[14:26:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6218ms or 124 ticks behind
+[14:26:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6714ms or 134 ticks behind
+[14:27:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5362ms or 107 ticks behind
+[14:27:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6082ms or 121 ticks behind
+[14:27:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8158ms or 163 ticks behind
+[14:27:47] [Server thread/INFO]: <kim> cuk aku dapat pancingan keberuntungan lain 2
+[14:28:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6659ms or 133 ticks behind
+[14:28:19] [Server thread/INFO]: kim has made the advancement [Best Friends Forever]
+[14:28:29] [Server thread/INFO]: <kim> gila 8 ikan baru jinak
+[14:28:37] [Server thread/INFO]: <Shikimime> aku 1x doang tadi
+[14:28:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16001ms or 320 ticks behind
+[14:28:41] [Server thread/INFO]: <Shikimime> pake ikan merah
+[14:29:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14501ms or 290 ticks behind
+[14:29:14] [Server thread/INFO]: <kim> sini cuk pancingan tadi
+[14:29:17] [Server thread/INFO]: <kim> kuperbaiki
+[14:29:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7114ms or 142 ticks behind
+[14:29:30] [Server thread/INFO]: <Shikimime> gk punya anvil
+[14:29:37] [Server thread/INFO]: <kim> kan banyak iron
+[14:29:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2725ms or 54 ticks behind
+[14:30:46] [Server thread/INFO]: <Shikimime> ada benang gk?
+[14:30:57] [Server thread/INFO]: <kim> habis
+[14:31:14] [Server thread/INFO]: <Shikimime> puttttt
+[14:31:18] [Server thread/INFO]: <Shikimime> ini 1 kucing
+[14:31:25] [Server thread/INFO]: <Shikimime> belum jinak
+[14:31:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[14:31:49] [Server thread/INFO]: <Shikimime> depan rumah mu kuikat
+[14:31:54] [Server thread/INFO]: <Shikimime> jinakin sendiri
+[14:32:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
+[14:32:04] [Server thread/INFO]: <kim> anvil ready
+[14:32:13] [Server thread/INFO]: <Shikimime> mana
+[14:32:15] [Server thread/INFO]: <Shikimime> taruh
+[14:32:17] [Server thread/INFO]: <kim> dalam
+[14:32:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
+[14:32:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2098ms or 41 ticks behind
+[14:32:44] [Server thread/INFO]: <Shikimime> eh lepas
+[14:32:48] [Server thread/INFO]: <Shikimime> itu kucing mu rik?
+[14:32:53] [Server thread/INFO]: <kim> iya
+[14:32:56] [Server thread/INFO]: <Shikimime> anjing
+[14:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3356ms or 67 ticks behind
+[14:32:58] [Server thread/INFO]: <Shikimime> ku kira liar
+[14:33:00] [Server thread/INFO]: <kim> kucing
+[14:33:07] [Server thread/INFO]: <kim> bukan anjing
+[14:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5148ms or 102 ticks behind
+[14:33:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5661ms or 113 ticks behind
+[14:33:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
+[14:34:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[14:34:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7789ms or 155 ticks behind
+[14:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3236ms or 64 ticks behind
+[14:35:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3536ms or 70 ticks behind
+[14:35:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3228ms or 64 ticks behind
+[14:35:46] [Server thread/INFO]: <Shikimime> hmm
+[14:35:51] [Server thread/INFO]: <Shikimime> gk dapat benda aku
+[14:35:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3015ms or 60 ticks behind
+[14:35:57] [Server thread/INFO]: <kim> noob
+[14:36:06] [Server thread/INFO]: <Shikimime> tai
+[14:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[14:36:28] [Server thread/INFO]: <kim> put
+[14:36:31] [Server thread/INFO]: <Shikimime> sin put
+[14:36:33] [Server thread/INFO]: <kim> kami mancing malam nih
+[14:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4582ms or 91 ticks behind
+[14:36:41] [Server thread/INFO]: <Shikimime> mintan
+[14:36:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3453ms or 69 ticks behind
+[14:37:03] [Server thread/INFO]: <Shikimime> ikan semua wkwk
+[14:37:07] [Server thread/INFO]: <kim> noob
+[14:37:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[14:37:24] [Server thread/INFO]: <kim> lucky -99 tuh
+[14:38:38] [Server thread/INFO]: <kim> dapat lg cuk
+[14:38:45] [Server thread/INFO]: <Shikimime> kontol
+[14:38:49] [Server thread/INFO]: <kim> tapi bo'ong
+[14:38:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[14:39:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[14:39:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2585ms or 51 ticks behind
+[14:39:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3738ms or 74 ticks behind
+[14:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9692ms or 193 ticks behind
+[14:40:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9446ms or 188 ticks behind
+[14:40:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
+[14:41:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[14:41:20] [Server thread/INFO]: <kim> cuk
+[14:41:31] [Server thread/INFO]: <Shikimime> ?
+[14:41:32] [Server thread/INFO]: <kim> kita ditembakin skelaton
+[14:41:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5821ms or 116 ticks behind
+[14:41:47] [Server thread/INFO]: <Shikimime> aman
+[14:41:50] [Server thread/INFO]: <Shikimime> gk liat dia
+[14:41:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5198ms or 103 ticks behind
+[14:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
+[14:43:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[14:44:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2439ms or 48 ticks behind
+[14:44:27] [Server thread/INFO]: <kim> nyerah cuk?
+[14:44:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4540ms or 90 ticks behind
+[14:44:40] [Server thread/INFO]: <Shikimime> rik
+[14:44:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3545ms or 70 ticks behind
+[14:44:47] [Server thread/INFO]: <Shikimime> iselem hang kolam putra
+[14:45:00] [Server thread/INFO]: <kim> wtf
+[14:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4410ms or 88 ticks behind
+[14:45:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2848ms or 56 ticks behind
+[14:45:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3482ms or 69 ticks behind
+[14:46:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[14:46:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5925ms or 118 ticks behind
+[14:46:28] [Server thread/INFO]: <kim> bocbor put
+[14:46:34] [Server thread/INFO]: <Shikimime> pinjam ember rik
+[14:46:37] [Server thread/INFO]: <D A T U> tolonggg'
+[14:46:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3812ms or 76 ticks behind
+[14:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[14:47:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[14:48:19] [Server thread/INFO]: <kim> woi dajal
+[14:48:19] [Server thread/INFO]: <Shikimime> inun kangulah
+[14:48:30] [Server thread/INFO]: <kim> itu kenapa air duliar
+[14:48:30] [Server thread/INFO]: <Shikimime> hiye ngelah ranu riet tambang
+[14:48:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
+[14:48:57] [Server thread/INFO]: <kim> mancing cuk
+[14:49:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8557ms or 171 ticks behind
+[14:49:02] [Server thread/INFO]: <kim> biar dapat sadel
+[14:49:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8410ms or 168 ticks behind
+[14:49:28] [Server thread/INFO]: Shikimime has made the advancement [Tactical Fishing]
+[14:49:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9254ms or 185 ticks behind
+[14:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6710ms or 134 ticks behind
+[14:50:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4529ms or 90 ticks behind
+[14:50:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7017ms or 140 ticks behind
+[14:51:12] [Server thread/INFO]: <kim> sini pancingan cuk
+[14:51:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8346ms or 166 ticks behind
+[14:51:23] [Server thread/INFO]: <Shikimime> sini
+[14:51:35] [Server thread/INFO]: <kim> mana kau
+[14:51:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9236ms or 184 ticks behind
+[14:51:45] [Server thread/INFO]: <Shikimime> cuk
+[14:51:51] [Server thread/INFO]: <Shikimime> aku dapat pancingan enchance jua
+[14:52:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8440ms or 168 ticks behind
+[14:52:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3851ms or 77 ticks behind
+[14:52:31] [Server thread/INFO]: <kim> nice
+[14:52:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4810ms or 96 ticks behind
+[14:52:50] [Server thread/INFO]: <Shikimime> aku mau kumpul tugas benar
+[14:52:52] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[14:52:52] [Server thread/INFO]: Shikimime left the game
+[14:53:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4087ms or 81 ticks behind
+[14:53:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[14:53:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[14:54:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[14:54:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
+[14:54:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[14:55:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4336ms or 86 ticks behind
+[14:56:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[14:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[14:59:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[14:59:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2971ms or 59 ticks behind
+[14:59:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3203ms or 64 ticks behind
+[14:59:58] [Server thread/INFO]: Shikimime[/125.160.108.107:64788] logged in with entity id 11342 at (-366.7813220465428, 66.0, 287.27819547703143)
+[14:59:58] [Server thread/INFO]: Shikimime joined the game
+[15:00:05] [Server thread/INFO]: D A T U lost connection: Disconnected
+[15:00:05] [Server thread/INFO]: D A T U left the game
+[15:00:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7327ms or 146 ticks behind
+[15:00:17] [Server thread/INFO]: <Shikimime> eh
+[15:00:21] [Server thread/INFO]: <Shikimime> putra kenapa?
+[15:00:24] [Server thread/INFO]: <kim> ntah
+[15:00:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4150ms or 83 ticks behind
+[15:00:32] [Server thread/INFO]: <Shikimime> kamu granat pasti
+[15:00:43] [Server thread/INFO]: <kim> gw mancing dari tadi njing
+[15:00:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2327ms or 46 ticks behind
+[15:01:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3395ms or 67 ticks behind
+[15:01:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2791ms or 55 ticks behind
+[15:01:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3244ms or 64 ticks behind
+[15:01:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3663ms or 73 ticks behind
+[15:02:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3363ms or 67 ticks behind
+[15:02:19] [Server thread/INFO]: Villager axw['Villager'/356, l='world', x=-486.70, y=63.00, z=318.30] died, message: 'Villager was slain by Zombie'
+[15:02:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3693ms or 73 ticks behind
+[15:02:44] [Server thread/INFO]: Villager axw['Farmer'/263, l='world', x=-441.42, y=67.00, z=289.96] died, message: 'Farmer was slain by Zombie'
+[15:02:49] [Server thread/INFO]: <Shikimime> dapant nametag dimana?
+[15:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2460ms or 49 ticks behind
+[15:02:53] [Server thread/INFO]: <kim> mancing
+[15:03:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3886ms or 77 ticks behind
+[15:03:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
+[15:03:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3720ms or 74 ticks behind
+[15:03:53] [Server thread/INFO]: <kim> tidur
+[15:04:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5590ms or 111 ticks behind
+[15:04:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[15:04:39] [Server thread/INFO]: <Shikimime> sek
+[15:04:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2900ms or 58 ticks behind
+[15:04:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2433ms or 48 ticks behind
+[15:05:11] [Server thread/INFO]: <kim> hmm, kayanya tidur beneran aja deh
+[15:05:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3199ms or 63 ticks behind
+[15:05:23] [Server thread/INFO]: <kim> bgst
+[15:05:24] [Server thread/INFO]: <Shikimime> dulaun
+[15:05:28] [Server thread/INFO]: <Shikimime> gue masih insom
+[15:05:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[15:05:37] [Server thread/INFO]: <kim> ok
+[15:05:43] [Server thread/INFO]: <kim> aku off
+[15:05:51] [Server thread/INFO]: <kim> jgn kau hancuri rumah kami
+[15:06:01] [Server thread/INFO]: <kim> pancingan dichest
+[15:06:02] [Server thread/INFO]: kim lost connection: Disconnected
+[15:06:02] [Server thread/INFO]: kim left the game
+[15:06:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[15:06:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2140ms or 42 ticks behind
+[15:14:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[15:17:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[15:19:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[15:19:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5715ms or 114 ticks behind
+[15:20:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[15:24:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3276ms or 65 ticks behind
+[15:29:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3308ms or 66 ticks behind
+[15:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[15:34:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[15:34:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4093ms or 81 ticks behind
+[15:39:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4637ms or 92 ticks behind
+[15:43:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[15:44:10] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[15:44:10] [Server thread/INFO]: Shikimime left the game
+[15:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[23:38:38] [Server thread/INFO]: kim[/36.75.67.166:54034] logged in with entity id 16711 at (-366.9344513829544, 70.0, 283.3836043345791)
+[23:38:38] [Server thread/INFO]: kim joined the game
+[01:24:09] [Server thread/INFO]: D A T U[/125.160.97.131:4210] logged in with entity id 28782 at (-343.4490654859157, 64.0, 302.69999998807907)
+[01:24:09] [Server thread/INFO]: D A T U joined the game
+[01:33:53] [Server thread/INFO]: <kim> kuliah woi, jgn main
+[01:37:46] [Server thread/INFO]: <kim> hai
+[01:37:52] [Server thread/INFO]: <D A T U> HAY
+[01:53:55] [Server thread/INFO]: Shikimime[/125.167.253.64:58574] logged in with entity id 33965 at (-366.7322623258891, 70.0, 283.45041616049446)
+[01:53:55] [Server thread/INFO]: Shikimime joined the game
+[01:54:24] [Server thread/INFO]: <kim> anda siapa?
+[01:54:33] [Server thread/INFO]: <Shikimime> bagi pancing
+[01:55:57] [Server thread/INFO]: <kim> ada batu gk?
+[01:56:47] [Server thread/INFO]: <kim> put
+[01:57:08] [Server thread/INFO]: <D A T U> ada rasa nya
+[01:57:16] [Server thread/INFO]: <kim> sini put
+[01:57:19] [Server thread/INFO]: <kim> udh malam
+[01:57:22] [Server thread/INFO]: <kim> jgn diluar
+[01:57:57] [Server thread/INFO]: D A T U lost connection: Timed out
+[01:57:57] [Server thread/INFO]: D A T U left the game
+[01:57:57] [Server thread/WARN]: handleDisconnection() called twice
+[01:58:11] [Server thread/INFO]: D A T U[/125.160.97.131:1166] logged in with entity id 34605 at (-365.17049288471804, 67.0, 306.55045057799293)
+[01:58:11] [Server thread/INFO]: D A T U joined the game
+[01:58:32] [Server thread/INFO]: <Shikimime> guring oyy
+[01:58:42] [Server thread/INFO]: D A T U lost connection: Timed out
+[01:58:42] [Server thread/INFO]: D A T U left the game
+[01:59:03] [Server thread/INFO]: D A T U[/125.160.97.131:1170] logged in with entity id 34692 at (-365.17049288471804, 67.0, 306.55045057799293)
+[01:59:03] [Server thread/INFO]: D A T U joined the game
+[01:59:26] [Server thread/INFO]: <kim> wkwkwk
+[01:59:30] [Server thread/INFO]: D A T U lost connection: Disconnected
+[01:59:30] [Server thread/INFO]: D A T U left the game
+[01:59:40] [Server thread/INFO]: <kim> putra dihantam creeper
+[02:01:36] [Server thread/INFO]: <Shikimime> cari batu skuy
+[02:01:42] [Server thread/INFO]: <Shikimime> mau bikin batu halus aku
+[02:02:04] [Server thread/INFO]: <kim> aku nebang
+[02:03:31] [Server thread/INFO]: <Shikimime> rik
+[02:03:33] [Server thread/INFO]: <Shikimime> beli sadel
+[02:03:41] [Server thread/INFO]: <Shikimime> kita cari wortel ke desa lain
+[02:03:44] [Server thread/INFO]: <kim> cari 1 lagi buat putra
+[02:03:51] [Server thread/INFO]: <Shikimime> lah kamu punya?
+[02:04:02] [Server thread/INFO]: <kim> liat WA njing
+[02:04:20] [Server thread/INFO]: <kim> skuy nangkap kuda
+[02:04:35] [Server thread/INFO]: <Shikimime> jerami nya?
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:27] [Server thread/INFO]: <Shikimime> rik
+[02:07:31] [Server thread/INFO]: <Shikimime> mineshaft
+[02:07:38] [Server thread/INFO]: <kim> males
+[02:07:45] [Server thread/INFO]: <Shikimime> kontol
+[02:07:52] [Server thread/INFO]: <Shikimime> cuk
+[02:07:55] [Server thread/INFO]: <Shikimime> minta tali
+[02:09:18] [Server thread/INFO]: <Shikimime> tidur
+[02:16:52] [Server thread/INFO]: <kim> kau ditambang cuk
+[02:17:09] [Server thread/INFO]: <Shikimime> di tempat villager
+[02:17:37] [Server thread/INFO]: <kim> aku mau kemineshaft
+[02:18:13] [Server thread/INFO]: <Shikimime> aku lagi bikinin rumah
+[02:18:20] [Server thread/INFO]: <Shikimime> biar pada nikah villager nya
+[02:18:21] [Server thread/INFO]: <kim> tadi aku dengar suara kereta ditambangku
+[02:18:36] [Server thread/INFO]: <Shikimime> aku dah dapat lokasinya
+[02:18:56] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/37886, l='world', x=-404.38, y=12.00, z=228.13]
+[02:22:00] [Server thread/INFO]: kim has made the advancement [Hot Stuff]
+[02:29:44] [Server thread/INFO]: <Shikimime> tidur rik
+[02:29:50] [Server thread/INFO]: <kim> udh pagi
+[02:29:53] [Server thread/INFO]: <kim> telat
+[02:30:13] [Server thread/INFO]: <Shikimime> cepetan
+[02:30:30] [Server thread/INFO]: <kim> kenapa anda menyimpan kuda dirumah putra
+[02:31:19] [Server thread/INFO]: <Shikimime> awokwowko
+[02:32:16] [Server thread/INFO]: <Shikimime> skuy
+[02:32:20] [Server thread/INFO]: <Shikimime> mineshaft
+[02:32:22] [Server thread/INFO]: <kim> ngapain>?
+[02:34:56] [Server thread/INFO]: <Shikimime> ayo
+[02:34:59] [Server thread/INFO]: <Shikimime> nyari harta karun
+[02:35:02] [Server thread/INFO]: <kim> sek
+[02:35:38] [Server thread/INFO]: <Shikimime> sek
+[02:35:41] [Server thread/INFO]: <Shikimime> makanan kurang
+[02:37:36] [Server thread/INFO]: <Shikimime> skuy
+[02:37:42] [Server thread/INFO]: <Shikimime> follow me
+[02:37:45] [Server thread/INFO]: <kim> aku dh ditambang
+[02:37:54] [Server thread/INFO]: <Shikimime> bukan lewat situ bambang
+[02:38:26] [Server thread/INFO]: <Shikimime> ayo rik
+[02:39:29] [Server thread/INFO]: <kim> wtf
+[02:41:50] [Server thread/INFO]: <kim> kenpa kita gk pakai dc
+[02:41:58] [Server thread/INFO]: <Shikimime> ya hidupin
+[02:58:53] [Server thread/INFO]: kim lost connection: Timed out
+[02:58:53] [Server thread/INFO]: kim left the game
+[02:58:53] [Server thread/WARN]: handleDisconnection() called twice
+[02:59:05] [Server thread/INFO]: kim[/36.75.67.166:63870] logged in with entity id 43854 at (-493.82006360937027, 30.0, 116.31530097257394)
+[02:59:05] [Server thread/INFO]: kim joined the game
+[02:59:36] [Server thread/INFO]: kim lost connection: Timed out
+[02:59:36] [Server thread/INFO]: kim left the game
+[02:59:46] [Server thread/INFO]: kim[/36.75.67.166:16410] logged in with entity id 43921 at (-493.82006360937027, 30.0, 116.31530097257394)
+[02:59:46] [Server thread/INFO]: kim joined the game
+[03:00:17] [Server thread/INFO]: kim lost connection: Timed out
+[03:00:17] [Server thread/INFO]: kim left the game
+[03:00:53] [Server thread/INFO]: kim[/36.75.67.166:14752] logged in with entity id 44071 at (-493.82006360937027, 30.0, 116.31530097257394)
+[03:00:53] [Server thread/INFO]: kim joined the game
+[03:01:50] [Server thread/INFO]: kim lost connection: Disconnected
+[03:01:50] [Server thread/INFO]: kim left the game
+[03:01:58] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[03:01:58] [Server thread/INFO]: Shikimime left the game

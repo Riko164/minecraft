@@ -1,250 +1,98 @@
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04:03:21] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04:03:21] [Server thread/INFO]: Starting minecraft server version 1.15.2
-[04:03:21] [Server thread/INFO]: Loading properties
-[04:03:21] [Server thread/INFO]: Default game type: SURVIVAL
-[04:03:21] [Server thread/INFO]: Generating keypair
-[04:03:21] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: Bad file descriptor
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
-	at wd$2.run(SourceFile:110) [server.jar:?]
-[04:03:22] [Server thread/INFO]: Starting Minecraft server on *:25565
-[04:03:22] [Server thread/INFO]: Using epoll channel type
-[04:03:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[04:03:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[04:03:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[04:03:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[04:03:23] [Server thread/INFO]: Preparing level "world"
-[04:03:23] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
-[04:03:23] [Server thread/INFO]: Reloading ResourceManager: Default
-[04:03:58] [Server thread/INFO]: Loaded 6 recipes
-[04:03:58] [Server thread/INFO]: Loaded 825 advancements
-[04:04:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:05] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:06] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:06] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:07] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[04:04:07] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[04:04:08] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[04:04:08] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[04:04:09] [Server-Worker-1/INFO]: Preparing spawn area: 2%
-[04:04:09] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[04:04:10] [Server-Worker-1/INFO]: Preparing spawn area: 3%
-[04:04:10] [Server-Worker-1/INFO]: Preparing spawn area: 4%
-[04:04:11] [Server-Worker-1/INFO]: Preparing spawn area: 5%
-[04:04:11] [Server-Worker-1/INFO]: Preparing spawn area: 6%
-[04:04:12] [Server-Worker-1/INFO]: Preparing spawn area: 7%
-[04:04:12] [Server-Worker-1/INFO]: Preparing spawn area: 8%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:14] [Server-Worker-1/INFO]: Preparing spawn area: 9%
-[04:04:15] [Server-Worker-1/INFO]: Preparing spawn area: 10%
-[04:04:15] [Server-Worker-1/INFO]: Preparing spawn area: 11%
-[04:04:16] [Server-Worker-1/INFO]: Preparing spawn area: 12%
-[04:04:16] [Server-Worker-1/INFO]: Preparing spawn area: 13%
-[04:04:17] [Server-Worker-1/INFO]: Preparing spawn area: 15%
-[04:04:17] [Server-Worker-1/INFO]: Preparing spawn area: 16%
-[04:04:18] [Server-Worker-1/INFO]: Preparing spawn area: 17%
-[04:04:18] [Server-Worker-1/INFO]: Preparing spawn area: 17%
-[04:04:19] [Server-Worker-1/INFO]: Preparing spawn area: 18%
-[04:04:19] [Server-Worker-1/INFO]: Preparing spawn area: 20%
-[04:04:20] [Server-Worker-1/INFO]: Preparing spawn area: 21%
-[04:04:20] [Server-Worker-1/INFO]: Preparing spawn area: 22%
-[04:04:21] [Server-Worker-1/INFO]: Preparing spawn area: 24%
-[04:04:21] [Server-Worker-1/INFO]: Preparing spawn area: 24%
-[04:04:22] [Server-Worker-1/INFO]: Preparing spawn area: 25%
-[04:04:22] [Server-Worker-1/INFO]: Preparing spawn area: 26%
-[04:04:23] [Server-Worker-1/INFO]: Preparing spawn area: 27%
-[04:04:23] [Server-Worker-1/INFO]: Preparing spawn area: 29%
-[04:04:24] [Server-Worker-1/INFO]: Preparing spawn area: 30%
-[04:04:24] [Server-Worker-1/INFO]: Preparing spawn area: 31%
-[04:04:25] [Server-Worker-1/INFO]: Preparing spawn area: 31%
-[04:04:25] [Server-Worker-1/INFO]: Preparing spawn area: 33%
-[04:04:26] [Server-Worker-1/INFO]: Preparing spawn area: 34%
-[04:04:26] [Server-Worker-1/INFO]: Preparing spawn area: 35%
-[04:04:27] [Server-Worker-1/INFO]: Preparing spawn area: 35%
-[04:04:27] [Server-Worker-1/INFO]: Preparing spawn area: 37%
-[04:04:28] [Server-Worker-1/INFO]: Preparing spawn area: 39%
-[04:04:28] [Server-Worker-1/INFO]: Preparing spawn area: 40%
-[04:04:29] [Server-Worker-1/INFO]: Preparing spawn area: 41%
-[04:04:29] [Server-Worker-1/INFO]: Preparing spawn area: 43%
-[04:04:30] [Server-Worker-1/INFO]: Preparing spawn area: 44%
-[04:04:30] [Server-Worker-1/INFO]: Preparing spawn area: 46%
-[04:04:31] [Server-Worker-1/INFO]: Preparing spawn area: 48%
-[04:04:31] [Server-Worker-1/INFO]: Preparing spawn area: 50%
-[04:04:32] [Server-Worker-1/INFO]: Preparing spawn area: 50%
-[04:04:32] [Server-Worker-1/INFO]: Preparing spawn area: 51%
-[04:04:33] [Server-Worker-1/INFO]: Preparing spawn area: 54%
-[04:04:33] [Server-Worker-1/INFO]: Preparing spawn area: 56%
-[04:04:34] [Server-Worker-1/INFO]: Preparing spawn area: 57%
-[04:04:34] [Server-Worker-1/INFO]: Preparing spawn area: 59%
-[04:04:35] [Server-Worker-1/INFO]: Preparing spawn area: 61%
-[04:04:35] [Server-Worker-1/INFO]: Preparing spawn area: 62%
-[04:04:36] [Server-Worker-1/INFO]: Preparing spawn area: 64%
-[04:04:36] [Server-Worker-1/INFO]: Preparing spawn area: 65%
-[04:04:37] [Server-Worker-1/INFO]: Preparing spawn area: 67%
-[04:04:37] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[04:04:38] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[04:04:38] [Server-Worker-1/INFO]: Preparing spawn area: 70%
-[04:04:39] [Server-Worker-1/INFO]: Preparing spawn area: 71%
-[04:04:39] [Server-Worker-1/INFO]: Preparing spawn area: 74%
-[04:04:40] [Server-Worker-1/INFO]: Preparing spawn area: 76%
-[04:04:40] [Server-Worker-1/INFO]: Preparing spawn area: 79%
-[04:04:41] [Server-Worker-1/INFO]: Preparing spawn area: 81%
-[04:04:41] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[04:04:42] [Server-Worker-1/INFO]: Preparing spawn area: 85%
-[04:04:42] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[04:04:43] [Server-Worker-1/INFO]: Preparing spawn area: 87%
-[04:04:43] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[04:04:44] [Server-Worker-1/INFO]: Preparing spawn area: 93%
-[04:04:44] [Server-Worker-1/INFO]: Preparing spawn area: 95%
-[04:04:45] [Server-Worker-1/INFO]: Preparing spawn area: 96%
-[04:04:45] [Server-Worker-1/INFO]: Preparing spawn area: 99%
-[04:04:46] [Server thread/INFO]: Time elapsed: 41436 ms
-[04:04:46] [Server thread/INFO]: Done (83.197s)! For help, type "help"
-[04:07:19] [Server thread/INFO]: Shikimime[/36.75.66.159:33456] logged in with entity id 177 at (-186.5, 64.0, 95.5)
-[04:07:20] [Server thread/INFO]: Shikimime joined the game
-[04:08:36] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[04:08:36] [Server thread/INFO]: Shikimime left the game
-[04:09:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2163ms or 43 ticks behind
-[04:11:39] [Server thread/INFO]: kim[/36.75.67.226:48596] logged in with entity id 467 at (-196.5, 63.0, 94.5)
-[04:11:39] [Server thread/INFO]: kim joined the game
-[04:14:09] [Server thread/INFO]: kim has made the advancement [Stone Age]
-[04:17:43] [Server thread/INFO]: D A T U[/125.160.104.195:2215] logged in with entity id 1148 at (-181.5, 64.0, 97.5)
-[04:17:43] [Server thread/INFO]: D A T U joined the game
-[04:18:29] [Server thread/INFO]: <kim> awas put
-[04:18:32] [Server thread/INFO]: <kim> zombie
-[04:20:34] [Server thread/INFO]: kim has made the advancement [Getting an Upgrade]
-[04:20:48] [Server thread/INFO]: D A T U was slain by Zombie
-[04:22:59] [Server thread/INFO]: <kim> put
-[04:23:07] [Server thread/INFO]: <kim> tekan T buat chat
-[04:30:42] [Server thread/INFO]: Shikimime[/36.75.66.159:54289] logged in with entity id 3117 at (-173.26705952862662, 72.0, 69.13339512617289)
-[04:30:42] [Server thread/INFO]: Shikimime joined the game
-[04:32:56] [Server thread/INFO]: Shikimime has made the advancement [Stone Age]
-[04:33:48] [Server thread/INFO]: Shikimime has made the advancement [Getting an Upgrade]
-[04:34:50] [Server thread/WARN]: kim moved too quickly! 8.774213456506175,-1.9403488117095407,-4.653868038913473
-[04:34:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
-[04:35:59] [Server thread/INFO]: D A T U lost connection: Timed out
-[04:35:59] [Server thread/INFO]: D A T U left the game
-[04:35:59] [Server thread/WARN]: handleDisconnection() called twice
-[04:36:28] [Server thread/INFO]: D A T U[/125.160.104.195:2251] logged in with entity id 4362 at (-363.8392017971686, 64.0, 208.44679191369062)
-[04:36:28] [Server thread/INFO]: D A T U joined the game
-[04:37:05] [Server thread/WARN]: D A T U moved too quickly! 17.26369089070289,1.0,-13.340691838486407
-[04:37:06] [Server thread/INFO]: kim has made the advancement [Sweet Dreams]
-[04:37:20] [Server thread/INFO]: Shikimime has made the advancement [Sweet Dreams]
-[04:37:41] [Server thread/WARN]: D A T U moved wrongly!
-[04:37:55] [Server thread/INFO]: <Shikimime> a
-[04:38:08] [Server thread/INFO]: <kim> locate D A T U
-[04:38:24] [Server thread/INFO]: D A T U has made the advancement [Sweet Dreams]
-[04:39:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3379ms or 67 ticks behind
-[04:41:07] [Server thread/INFO]: Shikimime has made the advancement [Monster Hunter]
-[04:44:58] [Server thread/INFO]: D A T U has made the advancement [Stone Age]
-[04:45:34] [Server thread/INFO]: Shikimime has made the advancement [Fishy Business]
-[04:47:15] [Server thread/INFO]: Shikimime has made the advancement [Acquire Hardware]
-[04:48:07] [Server thread/INFO]: Shikimime has made the advancement [Isn't It Iron Pick]
-[04:52:07] [Server thread/INFO]: kim has made the advancement [Acquire Hardware]
-[04:54:02] [Server thread/INFO]: Shikimime has made the advancement [Not Today, Thank You]
-[04:56:31] [Server thread/WARN]: Fetching packet for removed entity awb['Wheat Seeds'/8168, l='world', x=-383.53, y=66.15, z=290.34]
-[04:56:32] [Server thread/INFO]: D A T U has made the advancement [Getting an Upgrade]
-[04:58:37] [Server thread/INFO]: D A T U lost connection: Timed out
-[04:58:37] [Server thread/INFO]: D A T U left the game
-[04:58:41] [Server thread/INFO]: D A T U[/125.160.97.131:2272] logged in with entity id 8563 at (-419.1017400198556, 59.0, 290.3197399446112)
-[04:58:41] [Server thread/INFO]: D A T U joined the game
-[05:08:13] [Server thread/INFO]: Shikimime has made the advancement [The Parrots and the Bats]
-[05:09:45] [Server thread/INFO]: Shikimime lost connection: Timed out
-[05:09:45] [Server thread/INFO]: Shikimime left the game
-[05:09:45] [Server thread/WARN]: handleDisconnection() called twice
-[05:09:59] [Server thread/INFO]: Shikimime[/36.75.66.159:46803] logged in with entity id 10315 at (-399.5290864662684, 64.0, 248.87326705425414)
-[05:09:59] [Server thread/INFO]: Shikimime joined the game
-[05:10:49] [Server thread/INFO]: Shikimime lost connection: Timed out
-[05:10:49] [Server thread/INFO]: Shikimime left the game
-[05:11:32] [Server thread/INFO]: Shikimime[/36.75.66.159:31850] logged in with entity id 10681 at (-399.5290864662684, 64.0, 248.87326705425414)
-[05:11:32] [Server thread/INFO]: Shikimime joined the game
-[05:12:09] [Server thread/INFO]: kim has made the advancement [A Seedy Place]
-[05:19:11] [Server thread/INFO]: Shikimime has made the advancement [Suit Up]
-[05:30:55] [Server thread/INFO]: Shikimime was slain by Zombie
-[05:31:29] [Server thread/INFO]: kim has made the advancement [Monster Hunter]
-[05:31:41] [Server thread/INFO]: kim was slain by Zombie
-[05:31:45] [Server thread/INFO]: Shikimime was slain by Zombie
-[05:32:14] [Server thread/INFO]: kim was slain by Zombie
-[05:32:42] [Server thread/INFO]: D A T U fell from a high place
-[05:32:51] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[05:32:51] [Server thread/INFO]: Shikimime left the game
-[05:33:00] [Server thread/INFO]: D A T U lost connection: Disconnected
-[05:33:00] [Server thread/INFO]: D A T U left the game
-[05:33:09] [Server thread/INFO]: D A T U[/125.160.97.131:2288] logged in with entity id 15291 at (-368.5998526510112, 66.6037636546968, 296.03403838508103)
-[05:33:09] [Server thread/INFO]: D A T U joined the game
-[05:33:11] [Server thread/INFO]: Shikimime[/36.75.66.159:17599] logged in with entity id 15301 at (-381.95092424506714, 67.5625, 298.15312860010056)
-[05:33:11] [Server thread/INFO]: Shikimime joined the game
-[05:34:23] [Server thread/INFO]: Villager axw['Villager'/3934, l='world', x=-412.81, y=51.00, z=247.27] died, message: 'Villager was slain by Zombie'
-[05:38:52] [Server thread/INFO]: Shikimime has made the advancement [Hot Stuff]
-[05:45:03] [Server thread/INFO]: <kim> wait
-[05:45:20] [Server thread/INFO]: Shikimime has made the advancement [A Seedy Place]
-[05:49:37] [Server thread/INFO]: Villager axw['Villager'/3774, l='world', x=-421.92, y=54.00, z=255.61] died, message: 'Villager was slain by Zombie'
-[05:50:23] [Server thread/INFO]: kim has made the advancement [Isn't It Iron Pick]
-[06:13:38] [Server thread/INFO]: Shikimime has made the advancement [Diamonds!]
-[06:21:46] [Server thread/INFO]: <kim> t
-[06:27:05] [Server thread/INFO]: kim has made the advancement [Diamonds!]
-[06:38:58] [Server thread/INFO]: Villager axw['Villager'/2438, l='world', x=-359.45, y=63.00, z=303.41] died, message: 'Villager was slain by D A T U'
-[06:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
-[06:39:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
-[06:40:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7331ms or 146 ticks behind
-[06:40:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10290ms or 205 ticks behind
-[06:41:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6554ms or 131 ticks behind
-[06:41:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8424ms or 168 ticks behind
-[06:41:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2322ms or 46 ticks behind
-[06:42:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2458ms or 49 ticks behind
-[06:42:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2220ms or 44 ticks behind
-[06:42:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6840ms or 136 ticks behind
-[06:43:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6477ms or 129 ticks behind
-[06:43:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4244ms or 84 ticks behind
-[06:43:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5740ms or 114 ticks behind
-[06:44:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8262ms or 165 ticks behind
-[06:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10456ms or 209 ticks behind
-[06:44:41] [Server thread/WARN]: kim moved too quickly! 8.635899434021155,0.0,5.045841416529925
-[06:45:02] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[06:45:02] [Server thread/INFO]: Shikimime left the game
-[06:45:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23275ms or 465 ticks behind
-[06:45:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4227ms or 84 ticks behind
-[06:45:53] [Server thread/INFO]: Shikimime[/36.75.66.159:39822] logged in with entity id 30028 at (-209.39438471013528, 11.0, 229.69999998807907)
-[06:45:53] [Server thread/INFO]: Shikimime joined the game
-[06:46:17] [Server thread/WARN]: Shikimime moved wrongly!
-[06:46:43] [Server Watchdog/FATAL]: A single server tick took 60.03 seconds (should be max 0.05)
-[06:46:44] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
-[06:47:42] [Server thread/INFO]: D A T U lost connection: Disconnected
-[06:47:43] [Server thread/INFO]: D A T U left the game
-[06:47:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 120594ms or 2411 ticks behind
-[06:47:51] [Server thread/INFO]: kim lost connection: Disconnected
-[06:47:52] [Server thread/INFO]: kim left the game
-[06:48:09] [Server thread/INFO]: D A T U[/125.160.97.131:2413] logged in with entity id 30160 at (-351.80611167231615, 64.0, 307.6283074462246)
-[06:48:09] [Server thread/INFO]: D A T U joined the game
-[06:48:19] [Server thread/INFO]: Shikimime lost connection: Disconnected
-[06:48:21] [Server thread/INFO]: Shikimime left the game
-[06:49:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@37032d2f[id=<null>,name=kim,properties={},legacy=false] (/36.75.67.226:12249) lost connection: Disconnected
-[06:49:11] [Server thread/INFO]: D A T U lost connection: Disconnected
-[06:49:11] [Server thread/INFO]: D A T U left the game
-[06:49:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 113467ms or 2269 ticks behind
-[06:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2550ms or 51 ticks behind
-[06:50:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
-[06:51:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14201ms or 284 ticks behind
-[06:51:17] [Server Watchdog/ERROR]: This crash report has been saved to: /home/mineser/minecraft/./crash-reports/crash-2020-05-07_06.51.08-server.txt
-[06:51:24] [Server thread/INFO]: Stopping server
-[06:51:28] [Server thread/INFO]: Saving players
-[06:51:29] [Server thread/INFO]: Saving worlds
-[06:51:29] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[01:24:09] [Server thread/INFO]: D A T U[/125.160.97.131:4210] logged in with entity id 28782 at (-343.4490654859157, 64.0, 302.69999998807907)
+[01:24:09] [Server thread/INFO]: D A T U joined the game
+[01:33:53] [Server thread/INFO]: <kim> kuliah woi, jgn main
+[01:37:46] [Server thread/INFO]: <kim> hai
+[01:37:52] [Server thread/INFO]: <D A T U> HAY
+[01:53:55] [Server thread/INFO]: Shikimime[/125.167.253.64:58574] logged in with entity id 33965 at (-366.7322623258891, 70.0, 283.45041616049446)
+[01:53:55] [Server thread/INFO]: Shikimime joined the game
+[01:54:24] [Server thread/INFO]: <kim> anda siapa?
+[01:54:33] [Server thread/INFO]: <Shikimime> bagi pancing
+[01:55:57] [Server thread/INFO]: <kim> ada batu gk?
+[01:56:47] [Server thread/INFO]: <kim> put
+[01:57:08] [Server thread/INFO]: <D A T U> ada rasa nya
+[01:57:16] [Server thread/INFO]: <kim> sini put
+[01:57:19] [Server thread/INFO]: <kim> udh malam
+[01:57:22] [Server thread/INFO]: <kim> jgn diluar
+[01:57:57] [Server thread/INFO]: D A T U lost connection: Timed out
+[01:57:57] [Server thread/INFO]: D A T U left the game
+[01:57:57] [Server thread/WARN]: handleDisconnection() called twice
+[01:58:11] [Server thread/INFO]: D A T U[/125.160.97.131:1166] logged in with entity id 34605 at (-365.17049288471804, 67.0, 306.55045057799293)
+[01:58:11] [Server thread/INFO]: D A T U joined the game
+[01:58:32] [Server thread/INFO]: <Shikimime> guring oyy
+[01:58:42] [Server thread/INFO]: D A T U lost connection: Timed out
+[01:58:42] [Server thread/INFO]: D A T U left the game
+[01:59:03] [Server thread/INFO]: D A T U[/125.160.97.131:1170] logged in with entity id 34692 at (-365.17049288471804, 67.0, 306.55045057799293)
+[01:59:03] [Server thread/INFO]: D A T U joined the game
+[01:59:26] [Server thread/INFO]: <kim> wkwkwk
+[01:59:30] [Server thread/INFO]: D A T U lost connection: Disconnected
+[01:59:30] [Server thread/INFO]: D A T U left the game
+[01:59:40] [Server thread/INFO]: <kim> putra dihantam creeper
+[02:01:36] [Server thread/INFO]: <Shikimime> cari batu skuy
+[02:01:42] [Server thread/INFO]: <Shikimime> mau bikin batu halus aku
+[02:02:04] [Server thread/INFO]: <kim> aku nebang
+[02:03:31] [Server thread/INFO]: <Shikimime> rik
+[02:03:33] [Server thread/INFO]: <Shikimime> beli sadel
+[02:03:41] [Server thread/INFO]: <Shikimime> kita cari wortel ke desa lain
+[02:03:44] [Server thread/INFO]: <kim> cari 1 lagi buat putra
+[02:03:51] [Server thread/INFO]: <Shikimime> lah kamu punya?
+[02:04:02] [Server thread/INFO]: <kim> liat WA njing
+[02:04:20] [Server thread/INFO]: <kim> skuy nangkap kuda
+[02:04:35] [Server thread/INFO]: <Shikimime> jerami nya?
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:10] [Server thread/WARN]: Horse moved wrongly!
+[02:07:27] [Server thread/INFO]: <Shikimime> rik
+[02:07:31] [Server thread/INFO]: <Shikimime> mineshaft
+[02:07:38] [Server thread/INFO]: <kim> males
+[02:07:45] [Server thread/INFO]: <Shikimime> kontol
+[02:07:52] [Server thread/INFO]: <Shikimime> cuk
+[02:07:55] [Server thread/INFO]: <Shikimime> minta tali
+[02:09:18] [Server thread/INFO]: <Shikimime> tidur
+[02:16:52] [Server thread/INFO]: <kim> kau ditambang cuk
+[02:17:09] [Server thread/INFO]: <Shikimime> di tempat villager
+[02:17:37] [Server thread/INFO]: <kim> aku mau kemineshaft
+[02:18:13] [Server thread/INFO]: <Shikimime> aku lagi bikinin rumah
+[02:18:20] [Server thread/INFO]: <Shikimime> biar pada nikah villager nya
+[02:18:21] [Server thread/INFO]: <kim> tadi aku dengar suara kereta ditambangku
+[02:18:36] [Server thread/INFO]: <Shikimime> aku dah dapat lokasinya
+[02:18:56] [Server thread/WARN]: Fetching packet for removed entity awb['Cobblestone'/37886, l='world', x=-404.38, y=12.00, z=228.13]
+[02:22:00] [Server thread/INFO]: kim has made the advancement [Hot Stuff]
+[02:29:44] [Server thread/INFO]: <Shikimime> tidur rik
+[02:29:50] [Server thread/INFO]: <kim> udh pagi
+[02:29:53] [Server thread/INFO]: <kim> telat
+[02:30:13] [Server thread/INFO]: <Shikimime> cepetan
+[02:30:30] [Server thread/INFO]: <kim> kenapa anda menyimpan kuda dirumah putra
+[02:31:19] [Server thread/INFO]: <Shikimime> awokwowko
+[02:32:16] [Server thread/INFO]: <Shikimime> skuy
+[02:32:20] [Server thread/INFO]: <Shikimime> mineshaft
+[02:32:22] [Server thread/INFO]: <kim> ngapain>?
+[02:34:56] [Server thread/INFO]: <Shikimime> ayo
+[02:34:59] [Server thread/INFO]: <Shikimime> nyari harta karun
+[02:35:02] [Server thread/INFO]: <kim> sek
+[02:35:38] [Server thread/INFO]: <Shikimime> sek
+[02:35:41] [Server thread/INFO]: <Shikimime> makanan kurang
+[02:37:36] [Server thread/INFO]: <Shikimime> skuy
+[02:37:42] [Server thread/INFO]: <Shikimime> follow me
+[02:37:45] [Server thread/INFO]: <kim> aku dh ditambang
+[02:37:54] [Server thread/INFO]: <Shikimime> bukan lewat situ bambang
+[02:38:26] [Server thread/INFO]: <Shikimime> ayo rik
+[02:39:29] [Server thread/INFO]: <kim> wtf
+[02:41:50] [Server thread/INFO]: <kim> kenpa kita gk pakai dc
+[02:41:58] [Server thread/INFO]: <Shikimime> ya hidupin
+[02:58:53] [Server thread/INFO]: kim lost connection: Timed out
+[02:58:53] [Server thread/INFO]: kim left the game
+[02:58:53] [Server thread/WARN]: handleDisconnection() called twice
+[02:59:05] [Server thread/INFO]: kim[/36.75.67.166:63870] logged in with entity id 43854 at (-493.82006360937027, 30.0, 116.31530097257394)
+[02:59:05] [Server thread/INFO]: kim joined the game
+[02:59:36] [Server thread/INFO]: kim lost connection: Timed out
+[02:59:36] [Server thread/INFO]: kim left the game
+[02:59:46] [Server thread/INFO]: kim[/36.75.67.166:16410] logged in with entity id 43921 at (-493.82006360937027, 30.0, 116.31530097257394)
+[02:59:46] [Server thread/INFO]: kim joined the game
+[03:00:17] [Server thread/INFO]: kim lost connection: Timed out
+[03:00:17] [Server thread/INFO]: kim left the game
+[03:00:53] [Server thread/INFO]: kim[/36.75.67.166:14752] logged in with entity id 44071 at (-493.82006360937027, 30.0, 116.31530097257394)
+[03:00:53] [Server thread/INFO]: kim joined the game
+[03:01:50] [Server thread/INFO]: kim lost connection: Disconnected
+[03:01:50] [Server thread/INFO]: kim left the game
+[03:01:58] [Server thread/INFO]: Shikimime lost connection: Disconnected
+[03:01:58] [Server thread/INFO]: Shikimime left the game
